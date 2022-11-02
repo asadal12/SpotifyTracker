@@ -1,6 +1,6 @@
 var access_token;
 let redirectURI = encodeURI(location.origin + (location.href.split("/SpotifyTracker/").length > 1 ? "/SpotifyTracker" : '') + "/callback.html")
-const clientID = "2f8e2442a3ec491cbdcfa556487e9de4"
+const clientID = "<YOUR_CLIENT>"
 const clientSecret = "<YOUR_SECRET>"
 var auth_url = "https://accounts.spotify.com/authorize?client_id=" + clientID + "&redirect_uri=" + redirectURI + "&scope=user-read-private%20user-read-email%20user-modify-playback-state%20user-read-playback-state%20user-top-read%20user-read-recently-played&response_type=code";
 var isLoggingOff = false;
